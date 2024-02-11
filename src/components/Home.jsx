@@ -3,6 +3,7 @@ import gsap from 'gsap';
 import SplitTextJS from 'split-text-js';
 import './Home.css'
 import Button from './Button';
+import resume from '../Resume-ShivanshArora.pdf'
 import Socials from './Socials';
 
 import { FaGithub } from "react-icons/fa";
@@ -57,16 +58,16 @@ const Home = () => {
         </div>
       </div>
       <div className='text-white text-center mt-28 justify-center align-middle items-center flex'>
-        <Button text="Resume"/>
-        <Socials text={<MdEmail size="32px"/>} customClass="text-black"/>
-        <Socials text={<FaLinkedinIn size="32px"/>} customClass="text-blue-800"/>
-        <Socials text={<FaGithub size="32px"/>} customClass="text-green-800"/>
-        <Socials text={<RiTwitterXFill size="32px"/>} customClass="text-black"/>
-        <Socials text={<BsInstagram size="32px"/>} customClass="text-pink-600"/>
-        <Socials text={<SiLeetcode size="32px"/>} customClass="text-yellow-600"/>
-        <Socials text={<SiCodechef size="32px"/>} customClass="text-black"/>
-        <Socials text={<SiCodeforces size="32px"/>} customClass="text-blue-500"/>
-        <Socials text={<SiGeeksforgeeks size="32px"/>} customClass="text-green-500"/>
+        <a href={resume} target='_blank'><Button text="Resume"/></a>
+        <Socials text={<MdEmail size="32px"/>} customClass="text-black" link="mailto: shivansh.arora973@gmail.com"/>
+        <Socials text={<FaLinkedinIn size="32px"/>} customClass="text-blue-800" link="https://www.linkedin.com/in/shivansharora97"/>
+        <Socials text={<FaGithub size="32px"/>} customClass="text-green-800" link="https://github.com/ShivanshAr97"/>
+        <Socials text={<RiTwitterXFill size="32px"/>} customClass="text-black" link="https://twitter.com/ShivanshAr97" />
+        <Socials text={<BsInstagram size="32px"/>} customClass="text-pink-600" link="https://www.instagram.com/shivanshar97"/>
+        <Socials text={<SiLeetcode size="32px"/>} customClass="text-yellow-600" link="https://leetcode.com/shivanshar"/>
+        <Socials text={<SiCodechef size="32px"/>} customClass="text-black" link="https://www.codechef.com/users/shivanshar97"/>
+        <Socials text={<SiCodeforces size="32px"/>} customClass="text-blue-500" link="https://codeforces.com/profile/shivansh.arora973"/>
+        <Socials text={<SiGeeksforgeeks size="32px"/>} customClass="text-green-500" link="https://auth.geeksforgeeks.org/user/shivansharora973"/>
         
         <button></button>
       </div>

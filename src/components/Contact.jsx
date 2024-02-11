@@ -7,29 +7,34 @@ import { BsArrowUpRightCircle } from "react-icons/bs";
 const projects = [
     {
       title: "Email",
-      colour: "#F06318"
+      colour: "#5C4033",
+      link:"mailto:shivansh.arora973@gmail.com"
     },
     {
       title: "Linkedin",
-      colour: "#DCF018"
+      colour: "#00008B",
+      link:"https://www.linkedin.com/in/shivansharora97"
     },
     {
       title: "GitHub",
-      colour: "#18F0E8"
+      colour: "#FF0000",
+      link:"https://github.com/ShivanshAr97"
     },
     {
       title: "Twitter",
-      colour: "#8C0CF0"
+      colour: "#9400d3",
+      link:"https://twitter.com/ShivanshAr97"
     },
     {
       title: "Instagram",
-      colour: "#F0183C"
+      colour: "#FF8C00",
+      link:"https://www.instagram.com/shivanshar97"
     }
 ]
 
 const Contact = () => {
     const manageMouseEnter = (e, index) => {
-        gsap.to(e.target, {top: "-2vw", backgroundColor: projects[index].colour, duration: 0.3})
+        gsap.to(e.target, {top: "-1.5vw", backgroundColor: projects[index].colour, duration: 0.3})
       }
     
       const manageMouseLeave = (e, index) => {
@@ -66,11 +71,11 @@ const Contact = () => {
     };
 
     return (
-        <div className="bg-gray-900 text-white p-8 shadow-lg flex font-spartan">
+        <div className="bg-gray-900 text-white px-[3.5rem] py-8 shadow-lg flex font-spartan">
         <div className='w-[50%]'>
-        <h2 className="text-5xl font-bold mb-4">Reach Out To Me</h2>
+        <h2 className="text-6xl font-bold mb-4 font-spartan">Reach Out To Me</h2>
         <form onSubmit={handleSubmit} ref={formRef}>
-            <div className="mb-4">
+            <div className="mb-4 font-spartan">
             <label htmlFor="name" className="block text-sm font-medium mb-2">
                 Name
             </label>
@@ -108,13 +113,13 @@ const Contact = () => {
                 value={formData.message}
                 onChange={handleChange}
                 rows="4"
-                className="w-full px-3 py-2 rounded-md bg-gray-800 focus:outline-none"
+                className="w-full font-spartan px-3 py-2 rounded-md bg-gray-800 focus:outline-none"
                 required
             ></textarea>
             </div>
             <button
             type="submit"
-            className="bg-blue-500 text-white px-4 py-2 rounded-md transition duration-300 hover:bg-blue-600 focus:outline-none"
+            className="bg-blue-500 font-spartan text-white px-4 py-2 rounded-md transition duration-300 hover:bg-blue-600 focus:outline-none"
             >
             Submit
             </button>
@@ -124,24 +129,13 @@ const Contact = () => {
         <div className="projectContactContainer">
             {
               projects.map( (project, index) => {
-                return <div className='contactDiv' onMouseEnter={(e) => {manageMouseEnter(e, index)}} onMouseLeave={(e) => {manageMouseLeave(e, index)}} key={index}>
+                return <a href={project.link} target='_blank'><div className='contactDiv' onMouseEnter={(e) => {manageMouseEnter(e, index)}} onMouseLeave={(e) => {manageMouseLeave(e, index)}} key={index}>
                   <p className='contactP flex justify-between items-center w-[30rem]'><span>{project.title}</span><BsArrowUpRightCircle/></p>
-                </div>
+                </div></a>
               })
             }
         </div>
     </div>
-            {/* <div className='mx-12'>
-                <ul>
-
-                    <div className='flex items-center border w-[25rem] p-4 my-4'><span><PiArrowCircleUpRightThin size="24px"/></span><span className='text-2xl'>LinkedIn</span></div>
-                    <div className='flex items-center  w-[25rem] p-4 my-4'><span><PiArrowCircleUpRightThin size="24px"/></span><span className='text-2xl'>Email</span></div>
-                    <div className='flex items-center  w-[25rem] p-4 my-4'><span><PiArrowCircleUpRightThin size="24px"/></span><span className='text-2xl'>GitHub</span></div>
-                    <div className='flex items-center w-[25rem] p-4 my-4'><span><PiArrowCircleUpRightThin size="24px"/></span><span className='text-2xl'>Twitter</span></div>
-                    <div className='flex items-center w-[25rem] p-4 my-4'><span><PiArrowCircleUpRightThin size="24px"/></span><span className='text-2xl'>Instagram</span></div>
-                    <div className='flex items-center w-[25rem] p-4 my-4'><span><PiArrowCircleUpRightThin size="24px"/></span><span className='text-2xl'>LeetCode</span></div>
-                </ul>
-            </div> */}
         </div>
     );
 };

@@ -9,7 +9,7 @@ const AboutSection = () => {
           <p className='text-xl mb-6 text-justify mx-4'>
           My commitment to the tech community is reflected in my active involvement with open-source projects and participation in esteemed open source programs, fostering a collaborative and community-driven mindset.</p>
           <p className='text-xl mb-6 text-justify mx-4'>
-          Beyond web development, I am an avid enthusiast in the realms of AI/ML, having honed my skills through model training and project creation, worked on Computer Vision, NLP, Deep Learning ans LLMs. I pride myself on being a problem solver and a competitive programmer, having successfully tackled over 350 problems on platforms like LeetCode and Geeks For Geeks, with commendable ratings on competitive programming platforms.
+          Beyond web development, I am an avid enthusiast in the realms of AI/ML, having honed my skills through model training and project creation,I worked on Computer Vision, NLP, Deep Learning and LLMs. I pride myself on being a problem solver and a competitive programmer, having successfully tackled over 350 problems on platforms like LeetCode and Geeks For Geeks, with commendable ratings on competitive programming platforms.
           </p>
           
         </div>
@@ -17,7 +17,7 @@ const AboutSection = () => {
           <img
             src="https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg"
             alt="My Photo"
-            className="w-full h-auto rounded-md"
+            className="w-[90%] h-auto rounded-md m-6 mt-32"
           />
           <p className='text-xl mb-6 text-justify mx-4'>
           Feel free to explore my portfolio and delve deeper into my journey as a self-taught Full Stack Web Developer, an AI/ML enthusiast, and a passionate problem solver. If you have any queries or if there's anything specific you'd like to know, don't hesitate to reach out!</p>

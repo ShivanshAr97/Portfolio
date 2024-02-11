@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import gsap from 'gsap'
 import ScrollTrigger from 'gsap/ScrollTrigger';
+import skillsData from './SkillsData.js'
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -12,10 +13,6 @@ const Skills = () => {
   }, []);
 
   const handleScroll = () => {
-    // ScrollTrigger.defaults({
-    //   scroller: '.scroller',
-    // });
-
     gsap.utils.toArray('section').forEach((section, index) => {
       const wrapper = section.querySelector('.wrapper');
 
@@ -32,7 +29,7 @@ const Skills = () => {
             x: xEnd,
             scrollTrigger: {
               trigger: section,
-              scrub: 0.5,
+              scrub: 0.0001,
             },
           }
         );
@@ -41,46 +38,69 @@ const Skills = () => {
   };
 
   return (
-    <div className="text-[12vw] overflow-hidden text-white">
+    <div className="text-[12vw] overflow-hidden text-white font-spartan">
       <section className="">
-        <div className="wrapper flex text-[16vh] font-medium whitespace-nowrap">
-          Keep smiling
-        </div>
-        </section>
-      {[1, 2, 3, 4].map((el) => (
-        <section key={el}>
-            <div className="wrapper flex text-[16vh] font-medium  ">
-            {[1, 2, 3, 4, 5, 6, 7, 8, 9].map((el2) => (
-              <img
-                key={el2}
-                className="h-40 rounded-xl m-2 transition-all hover:scale-95 cursor-pointer "
-                src={`https://source.unsplash.com/featured/?cities&${el2}?sig&${el}`}
-              />
-            ))}
-          </div>
-        </section>
-      ))}
-        <section className="">
-        <div className="wrapper flex text-[16vh] font-medium overflow whitespace-nowrap">
-          because life is a beautiful thing
+        <div className="wrapper flex text-[12vh] font-medium mx-20">
+          My Top Skills
         </div>
       </section>
-        {[1, 2, 3, 4].map((el) => (
-        <section key={el}>
-          <div className="wrapper flex text-[16vh] font-medium ">
-            {[1, 2, 3, 4, 5, 6, 7, 8, 9].map((el2) => (
-              <img
-                key={el2}
-                className="h-80 rounded-xl m-2 transition-all hover:scale-95 cursor-pointer "
-                src={`https://source.unsplash.com/featured/300×300/?cities&${el2}?sig&${el}`}
-              />
-            ))}
-          </div>
-        </section>
-      ))}
+      {[1].map((el) => (
+      <section key={el}>
+        <div className="wrapper flex mx-28">
+          {Array.from({ length: 6 }, (_, el2) => (
+            <img
+              key={el2}
+              className="h-40 w-40 object-cover rounded-xl m-2 transition-all hover:scale-110 duration-150 cursor-pointer"
+              src={skillsData[el2]?.img}
+            />
+          ))}
+        </div>
+      </section>
+    ))}
+    {[2].map((el) => (
+      <section key={el}>
+        <div className="wrapper flex">
+          {Array.from({ length: 6 }, (_, el2) => (
+            <img
+              key={el2+6}
+              className="h-40 w-40 object-cover rounded-xl m-2 transition-all hover:scale-110 duration-150 cursor-pointer"
+              src={skillsData[el2+6]?.img}
+            />
+          ))}
+        </div>
+      </section>
+    ))}
+    <section className="">
+      </section>
+      {[1].map((el) => (
+      <section key={el}>
+        <div className="wrapper flex">
+          {Array.from({ length: 6 }, (_, el2) => (
+            <img
+              key={el2+12}
+              className="h-40 w-40 object-cover rounded-xl m-2 transition-all hover:scale-110 duration-150 cursor-pointer"
+              src={skillsData[el2+12]?.img}
+            />
+          ))}
+        </div>
+      </section>
+    ))}
+        {[2].map((el) => (
+      <section key={el}>
+        <div className="wrapper flex mx-28">
+          {Array.from({ length: 6 }, (_, el2) => (
+            <img
+              key={el2+18}
+              className="h-40 w-40 object-cover rounded-xl m-2 transition-all hover:scale-110 duration-150 cursor-pointer"
+              src={skillsData[el2+18]?.img}
+            />
+          ))}
+        </div>
+      </section>
+    ))}
   <section className="">
-    <div className="wrapper flex text-[16vh] font-medium overflow whitespace-nowrap">
-      and there's so much to smile about.
+    <div className="wrapper flex text-[8vh] font-medium overflow">
+      And many more...
     </div>
     </section>
     </div>
@@ -88,4 +108,3 @@ const Skills = () => {
 };
     
 export default Skills;
-    

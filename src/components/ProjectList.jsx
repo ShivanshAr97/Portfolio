@@ -37,10 +37,8 @@ const ProjectList = () => {
             <div className="project-wrapper flex-control" key={index}>
               <figure className="project-img-container flex-control">
                 <img
-                  className="project-img"
+                  className="project-img h-[25rem] w-100 object-cover"
                   src={item.img}
-                  width="10%"
-                  height="10%"
                   alt="Project image"
                   ref={imgRef}
                 />
