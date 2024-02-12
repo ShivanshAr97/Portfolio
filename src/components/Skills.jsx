@@ -38,9 +38,9 @@ const Skills = () => {
   };
 
   return (
-    <div className="text-[12vw] overflow-hidden text-white font-spartan">
+    <div className="text-6xl overflow-hidden text-white font-spartan">
       <section className="">
-        <div className="wrapper flex text-[12vh] font-medium mx-20">
+        <div className="wrapper flex text-6xl my-4 font-spartan font-medium mx-20">
           My Top Skills
         </div>
       </section>

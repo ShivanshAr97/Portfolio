@@ -4,7 +4,7 @@ import './Project.css'
 const Projects = () => {
 
   return (
-    <section id='work' className='projects font-spartan'>
+    <section id='work' className='projects font-spartan bg-[#36454F]'>
 			<div className="width-wrapper">
         <div className="projects-container grid-control">
           <div className="col-left flex-control">

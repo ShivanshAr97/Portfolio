@@ -9,7 +9,6 @@ import Socials from './Socials';
 import { FaGithub } from "react-icons/fa";
 import { RiTwitterXFill } from "react-icons/ri";
 import { FaLinkedinIn } from "react-icons/fa";
-import { BsInstagram } from "react-icons/bs";
 import { SiLeetcode } from "react-icons/si";
 import { SiCodeforces } from "react-icons/si";
 import { SiCodechef } from "react-icons/si";
@@ -63,7 +62,6 @@ const Home = () => {
         <Socials text={<FaLinkedinIn size="32px"/>} customClass="text-blue-800" link="https://www.linkedin.com/in/shivansharora97"/>
         <Socials text={<FaGithub size="32px"/>} customClass="text-green-800" link="https://github.com/ShivanshAr97"/>
         <Socials text={<RiTwitterXFill size="32px"/>} customClass="text-black" link="https://twitter.com/ShivanshAr97" />
-        <Socials text={<BsInstagram size="32px"/>} customClass="text-pink-600" link="https://www.instagram.com/shivanshar97"/>
         <Socials text={<SiLeetcode size="32px"/>} customClass="text-yellow-600" link="https://leetcode.com/shivanshar"/>
         <Socials text={<SiCodechef size="32px"/>} customClass="text-black" link="https://www.codechef.com/users/shivanshar97"/>
         <Socials text={<SiCodeforces size="32px"/>} customClass="text-blue-500" link="https://codeforces.com/profile/shivansh.arora973"/>

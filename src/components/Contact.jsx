@@ -3,6 +3,7 @@ import emailjs from '@emailjs/browser';
 import gsap from 'gsap';
 import './Contact.css'
 import { BsArrowUpRightCircle } from "react-icons/bs";
+import Button from './Button.jsx'
 
 const projects = [
     {
@@ -25,11 +26,6 @@ const projects = [
       colour: "#9400d3",
       link:"https://twitter.com/ShivanshAr97"
     },
-    {
-      title: "Instagram",
-      colour: "#FF8C00",
-      link:"https://www.instagram.com/shivanshar97"
-    }
 ]
 
 const Contact = () => {
@@ -85,7 +81,7 @@ const Contact = () => {
                 name="name"
                 value={formData.name}
                 onChange={handleChange}
-                className="w-full px-3 py-2 rounded-md bg-gray-800 focus:outline-none"
+                className="w-full px-3 py-2 rounded-md bg-gray-800 focus:outline-none font-spartan"
                 required
             />
             </div>
@@ -99,7 +95,7 @@ const Contact = () => {
                 name="email"
                 value={formData.email}
                 onChange={handleChange}
-                className="w-full px-3 py-2 rounded-md bg-gray-800 focus:outline-none"
+                className="w-full px-3 py-2 rounded-md bg-gray-800 focus:outline-none  font-spartan"
                 required
             />
             </div>
@@ -113,13 +109,13 @@ const Contact = () => {
                 value={formData.message}
                 onChange={handleChange}
                 rows="4"
-                className="w-full font-spartan px-3 py-2 rounded-md bg-gray-800 focus:outline-none"
+                className="w-full font-spartan px-3 py-2 rounded-md bg-gray-800 focus:outline-none "
                 required
             ></textarea>
             </div>
             <button
             type="submit"
-            className="bg-blue-500 font-spartan text-white px-4 py-2 rounded-md transition duration-300 hover:bg-blue-600 focus:outline-none"
+            className="bg-green-500 font-spartan text-white px-4 py-2 rounded-md transition duration-300 hover:bg-green-600 focus:outline-none"
             >
             Submit
             </button>

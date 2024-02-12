@@ -12,7 +12,7 @@ const Sidebar = ({ isActive }) => {
   href: "/",
 },
 {
-  title: "About",
+  title: "About me",
   href: "/about",
 },
 {
@@ -33,7 +33,7 @@ const Sidebar = ({ isActive }) => {
        <div className="body font-spartan">
             <div onMouseLeave={() => {setSelectedIndicator(pathname)}} className="nav">
                     <div className="header">
-                        <p>Navigation</p>
+                        <p>Menu</p>
                     </div>
                     {
                       navItems.map( (data, index) => {
