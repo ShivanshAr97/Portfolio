@@ -24,6 +24,7 @@
     padding: 2rem 1.5rem;
     background: none;
     border-radius: 0.2rem;
+    color: white;
     text-align: center;
     /* border: 2px solid var(--clr-dark-purple); */
     backdrop-filter: blur(5px);
@@ -33,9 +34,9 @@
   
   #work .technoligies {
     padding: 1rem 0;
-    color: var(--clr-pink);
-    font-size: var(--fs-small);
-    font-weight: var(--fw-bold);
+    color: wheat;
+    /* font-size: var(--fs-small);
+    font-weight: var(--fw-bold); */
     text-transform: uppercase;
     gap: 0.5rem;
     text-align: center;
@@ -50,9 +51,9 @@
   }
   
   .project-link {
-    color: var(--clr-dark-purple);
-    font-size: var(--fs-regular);
-    font-weight: var(--fw-bold);
+    /* color: var(--clr-dark-purple); */
+    /* font-size: var(--fs-regular); */
+    /* font-weight: var(--fw-bold); */
     background: none;
     text-transform: uppercase;
   }
@@ -67,6 +68,7 @@
       width: 95%;
       margin: 5px auto auto;
       padding: 1rem 0;
+      color:white;
       /* background: #f3f2f2;
       box-shadow: 0 15px 15px #00000018; */
       z-index: 2;
@@ -80,6 +82,7 @@
   
     .project-description .project-link-container {
       flex-direction: row;
+      color: white;
     }
   
     .project-link {

@@ -1,12 +1,8 @@
 import screely1 from '../projectImages/screely1.png';
 import screely2 from '../projectImages/screely2.png';
 import screely3 from '../projectImages/screely3.png';
+import screely4 from '../projectImages/screely4.png';
 import screely5 from '../projectImages/screely5.png';
-import screely6 from '../projectImages/screely6.png';
-import screely7 from '../projectImages/screely7.png';
-import screely8 from '../projectImages/screely8.png';
-import screely9 from '../projectImages/screely9.png';
-import screely12 from '../projectImages/screely12.png';
 
 const projectsData = [
     {
@@ -37,50 +33,18 @@ const projectsData = [
         url: "https://github.com/ShivanshAr97/Youtube",
     },
     {
-        name: 'Cubicle Carnival',
-        img: screely5,
-        description: "a platform where you can reduce your stress and tiredness by playing some easy yet addictive games like Wordle, 2048, Pong, Hangman and Tic-Tac-Toe. It also has features like Jokes on your boss' name to flush out the anger. Also provides soothing music and other sources to learn new skills like reading books, learning new language, learn cooking, learn astronomy and other trending skills and to celebrate other connections.",
-        technologies: 'HTML, CSS and JavaScript, ReactJS, TailwindCSS',
-        repo_link: 'https://github.com/ShivanshAr97/workathon',
-        url: 'https://www.cubiclecarnival.co/'
-    },
-    {
         name: 'FitBuddy',
-        img: screely6,
-        description: 'A one stop destination to make you fit. It provide options like diet and workout recommendation, BMI calculation, food and water tracking, online trainers, shopping products.',
-        technologies: 'ReactJS, TailwindCSS, Redux',
+        img: screely4,
+        description: 'A comprehensive health and wellness platform featuring a blog, eCommerce with a cart system, personalized food and exercise recommendations, diet analysis, meal planning, recipe suggestions, exercise tracking, posture detection, disease prediction, creating an all-encompassing health ecosystem.',
+        technologies: 'ReactJS, TailwindCSS, NodeJS, ExpressJS, MongoDB, StripeApi, QuillJS',
         repo_link: 'https://github.com/ShivanshAr97/FitBuddy',
         url: 'https://fit-buddy-olive.vercel.app/'
     },
     {
-        name: 'Time Capsule',
-        img: screely12,
-        description: 'An exclusive blogging platform offering user authentication for login/register functionality. Authors gain privileged access to create, edit, and delete their blogs, ensuring a secure and personalized content management experience.',
-        technologies: 'ReactJS, NodeJS, ExpressJS, MongoDB',
-        repo_link: 'https://github.com/ShivanshAr97/BlogProject',
-        url: 'https://blog-frontend-two-rho.vercel.app/'
-    },
-    {
-        name: 'ContriHub',
-        img: screely9,
-        description: 'Discover trending repositories and find beginner-friendly issues on this platform. Connect with diverse skill sets, compete on the leaderboard, and elevate your open-source journey.',
-        technologies: 'ReactJS, TailwindCSS, Firebase',
-        repo_link: 'https://github.com/ShivanshAr97/hackfest',
-        url: 'https://hackfest-60bfd.web.app/'
-    },
-    {
-        name: 'PexelsClone',
-        img: screely7,
-        description: 'A Pexels clone offering a curated collection of high-quality, royalty-free images. Seamlessly browse, search, and download captivating visuals for various projects with a user-friendly interface.',
-        technologies: 'NextJS, TailwindCSS, Pexels API',
-        repo_link: 'https://github.com/ShivanshAr97/PexelsClone',
-        url: 'https://github.com/ShivanshAr97/PexelsClone'
-    },
-    {
-        name: 'Movie recommender system',
-        img: screely8,
-        description: 'Python, Google Gemini Pro, Langchain',
-        technologies: 'A movie recommender system powered by Langchain, providing personalized film suggestions based on user preferences and behavioral patterns. Enhance your cinematic experience with tailored movie recommendations.',
+        name: 'Movie Recommender System',
+        img: screely5,
+        description: 'A movie recommender system powered by Langchain, providing personalized film suggestions based on user preferences and behavioral patterns. Helps to enhance your cinematic experience with tailored movie recommendations.',
+        technologies: 'Python, Google Gemini Pro, Langchain',
         repo_link: 'https://github.com/ShivanshAr97/recommender-systems',
         url: 'https://reelinsights.streamlit.app/'
     }

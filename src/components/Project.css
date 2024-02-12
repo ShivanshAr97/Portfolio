@@ -1,25 +1,7 @@
 #work {
-    background: var(--clr-white);
     padding: 5rem 0;
   }
-  
-  #work h2 {
-    color: var(--clr-dark-purple);
-  }
-  
-  #work h2::after {
-      content: '.';
-      color: var(--clr-lime);
-  }
-  
-  #work h3 {
-    color: var(--clr-dark-purple);
-  }
-  
-  #work p {
-    color: var(--clr-text-dark);
-  }
-  
+
   #work .projects-container {
     counter-reset: project;
     grid-template-columns: 2fr 1fr;
@@ -50,15 +32,16 @@
   
   .dark-btn {
     margin-top: 1.5rem;
-    background: var(--clr-dark-purple);
-    color: var(--clr-white);
+	color: white;
+    /* background: var(--clr-dark-purple); */
+    /* color: var(--clr-white); */
     border-radius: 0.2rem;
-    font-size: var(--fs-regular);
+    /* font-size: var(--fs-regular); */
   }
   
   .dark-btn:hover {
     transition: background ease 0.2s;
-    background: var(--clr-light-purple);
+    /* background: var(--clr-light-purple); */
   }
   
   marquee span {

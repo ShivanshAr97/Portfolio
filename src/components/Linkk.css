@@ -10,6 +10,15 @@
         background-color: rgb(74, 222, 128);
         border-radius: 50%;
         position: absolute;
-        /* left: -10px; */
+        left: -10px;
     }
+}
+
+.title{
+    color: aliceblue;
+    margin: 0 -20px;
+}
+.title::before {
+    content: '•';
+    color: var(--clr-lime);
 }

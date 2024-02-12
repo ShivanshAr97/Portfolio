@@ -37,19 +37,19 @@ const ProjectList = () => {
             <div className="project-wrapper flex-control" key={index}>
               <figure className="project-img-container flex-control">
                 <img
-                  className="project-img h-[25rem] w-100 object-cover"
+                  className="project-img object-cover"
                   src={item.img}
                   alt="Project image"
                   ref={imgRef}
                 />
               </figure>
-                <div className="project-description">
-                  <h3>{item.name}</h3>
-                  <p>{item.description}</p>
+                <div className="project-description text-white">
+                  <h3 className='text-xl font-semibold'>{item.name}</h3>
+                  <p className='text-lg text-white'>{item.description}</p>
                   <p className="technoligies flex-control">
                     {item.technologies}
                   </p>
-                  <div className="project-link-container flex-control">
+                  <div className="project-link-container flex-control text-white">
                     {(item.repo_link.length > 1) &&
                       <a
                         className="project-link"

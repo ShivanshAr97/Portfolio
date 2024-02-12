@@ -67,12 +67,12 @@ const Contact = () => {
     };
 
     return (
-        <div className="bg-gray-900 text-white px-[3.5rem] py-8 shadow-lg flex font-spartan">
+        <div className="bg-gray-900 text-white px-[3.5rem] py-8 shadow-lg flex font-spartan" id='contact'>
         <div className='w-[50%]'>
-        <h2 className="text-6xl font-bold mb-4 font-spartan">Reach Out To Me</h2>
+        <h2 className="text-6xl mb-4 font-spartan">Reach Out To Me</h2>
         <form onSubmit={handleSubmit} ref={formRef}>
             <div className="mb-4 font-spartan">
-            <label htmlFor="name" className="block text-sm font-medium mb-2">
+            <label htmlFor="name" className="block font-spartan font-medium mb-2">
                 Name
             </label>
             <input
@@ -86,7 +86,7 @@ const Contact = () => {
             />
             </div>
             <div className="mb-4">
-            <label htmlFor="email" className="block text-sm font-medium mb-2">
+            <label htmlFor="email" className="block font-spartan font-medium mb-2">
                 Email
             </label>
             <input
@@ -100,7 +100,7 @@ const Contact = () => {
             />
             </div>
             <div className="mb-6">
-            <label htmlFor="message" className="block text-sm font-medium mb-2">
+            <label htmlFor="message" className="block font-spartan font-medium mb-2">
                 Message
             </label>
             <textarea

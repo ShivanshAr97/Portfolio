@@ -27,61 +27,69 @@ import jwt from "../skillsSvg/jwt.svg"
 const skillsData = [
     {
         id: "1",
-        img: javascript,
-    },
-    {
-        id: "2",
         img: html,
     },
     {
-        id: "3",
+        id: "2",
         img: css,
     },
+
     {
-        id: "4",
-        img: node,
-    },
-    {
-        id: "5",
-        img: express,
-    }, {
-        id: "6",
-        img: mongodb,
-    },
-    {
-        id: "7",
-        img: redux,
-    },
-    {
-        id: "8",
-        img: next,
-    },
-    {
-        id: "9",
+        id: "3",
         img: typescript,
     },
     {
+        id: "4",
+        img: cpp,
+    },
+    {
+        id: "5",
+        img: python,
+    },
+    {
+        id: "3",
+        img: javascript,
+    },
+
+
+    {
+        id: "7",
+        img: node,
+    }, {
+        id: "8",
+        img: express,
+    },
+    {
+        id: "9",
+        img: mongodb,
+    },
+    {
         id: "10",
-        img: git,
+        img: next,
     },
     {
         id: "11",
-        img: github,
+        img: react,
     },
     {
         id: "12",
-        img: firebase,
+        img: redux,
     },
+
+
+
+
     {
         id: "13",
-        img: cpp,
-    }, {
+        img: git,
+    },
+    {
         id: "14",
-        img: bootstrap,
+        img: github,
     },
     {
         id: "15",
-        img: tailwind,
+        img: netlify,
     },
     {
         id: "16",
@@ -89,35 +97,40 @@ const skillsData = [
     },
     {
         id: "17",
-        img: tensorflow,
-    },
-    {
-        id: "18",
-        img: react,
-    },
-    {
-        id: "19",
         img: postman,
     },
     {
-        id: "20",
+        id: "18",
+        img: tensorflow,
+    },
+
+
+    {
+        id: "19",
         img: pandas,
     },
     {
-        id: "21",
+        id: "20",
         img: opencv,
     },
     {
+        id: "21",
+        img: bootstrap,
+    },
+    {
         id: "22",
-        img: jwt,
+        img: tailwind,
     },
     {
         id: "23",
-        img: python,
+        img: firebase,
     },
+
     {
         id: "24",
-        img: netlify,
+        img: jwt,
     },
+
+
 ]
 export default skillsData

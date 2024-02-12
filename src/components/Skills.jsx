@@ -38,7 +38,7 @@ const Skills = () => {
   };
 
   return (
-    <div className="text-6xl overflow-hidden text-white font-spartan">
+    <div className="text-6xl overflow-hidden text-white font-spartan" id='skills'>
       <section className="">
         <div className="wrapper flex text-6xl my-4 font-spartan font-medium mx-20">
           My Top Skills
@@ -74,7 +74,7 @@ const Skills = () => {
       </section>
       {[1].map((el) => (
       <section key={el}>
-        <div className="wrapper flex">
+        <div className="wrapper flex -mx-12">
           {Array.from({ length: 6 }, (_, el2) => (
             <img
               key={el2+12}
@@ -87,7 +87,7 @@ const Skills = () => {
     ))}
         {[2].map((el) => (
       <section key={el}>
-        <div className="wrapper flex mx-28">
+        <div className="wrapper flex ml-[30rem]">
           {Array.from({ length: 6 }, (_, el2) => (
             <img
               key={el2+18}

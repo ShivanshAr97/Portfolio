@@ -43,7 +43,7 @@ const Home = () => {
     };
   }, []);
   return (
-    <div className='h-[100vh]'>
+    <div className='h-[100vh]' id='home'>
       <h1 className='text-6xl text-white  w-[100vw] h-[50vh] text-center py-28 font-spartan'>Hey! I'm <span className='text-green-400'>Shivansh Arora</span> </h1>
       <div className="container -mt-6">
         <div className="text-wrapper">
@@ -53,7 +53,7 @@ const Home = () => {
           <p className='pTag'>Curious</p>
           <p className='pTag'>Adaptable</p>
           <p className='pTag'>Open minded</p>
-          <p className='pTag'>Fast Learner</p>
+          <p className='pTag'>Quick Learner</p>
         </div>
       </div>
       <div className='text-white text-center mt-28 justify-center align-middle items-center flex'>

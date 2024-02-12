@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar'
 import Home from './components/Home'
@@ -10,7 +10,6 @@ import HeroEnd from './components/HeroEnd';
 import Skills from './components/Skills';
 
 function App() {
-
   return (
     <>
     <Navbar/>
