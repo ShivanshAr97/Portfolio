@@ -67,9 +67,9 @@ const Contact = () => {
     };
 
     return (
-        <div className="bg-gray-900 text-white px-[3.5rem] py-8 shadow-lg flex font-spartan" id='contact'>
-        <div className='w-[50%]'>
-        <h2 className="text-6xl mb-4 font-spartan">Reach Out To Me</h2>
+        <div className="bg-gray-900 text-white px-[3.5rem] py-8 flex-col shadow-lg flex lg:flex-row font-spartan" id='contact'>
+        <div className='lg:w-[50%]'>
+        <h2 className="lg:text-6xl text-4xl mb-4 font-spartan">Reach Out To Me</h2>
         <form onSubmit={handleSubmit} ref={formRef}>
             <div className="mb-4 font-spartan">
             <label htmlFor="name" className="block font-spartan font-medium mb-2">
@@ -115,18 +115,18 @@ const Contact = () => {
             </div>
             <button
             type="submit"
-            className="bg-green-500 font-spartan text-white px-4 py-2 rounded-md transition duration-300 hover:bg-green-600 focus:outline-none"
+            className="bg-green-500 font-spartan text-white px-4 py-2 rounded-md transition duration-300 hover:bg-green-600 focus:outline-none mx-auto flex lg:mx-0"
             >
             Submit
             </button>
         </form>
             </div>
-            <div className="contactContainer">
+            <div className="contactContainer lg:h-[50vh] lg:w-[50%] w-[100%] lg:my-28 lg:mx-8 my-4">
         <div className="projectContactContainer">
             {
               projects.map( (project, index) => {
                 return <a href={project.link} target='_blank'><div className='contactDiv' onMouseEnter={(e) => {manageMouseEnter(e, index)}} onMouseLeave={(e) => {manageMouseLeave(e, index)}} key={index}>
-                  <p className='contactP flex justify-between items-center w-[30rem]'><span>{project.title}</span><BsArrowUpRightCircle/></p>
+                  <p className='contactP flex justify-between items-center w-[24rem] lg:w-[30rem]'><span>{project.title}</span><BsArrowUpRightCircle/></p>
                 </div></a>
               })
             }

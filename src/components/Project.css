@@ -1,6 +1,3 @@
-#work {
-    padding: 5rem 0;
-  }
 
   #work .projects-container {
     counter-reset: project;
@@ -16,7 +13,6 @@
     overflow-y: auto;
     align-self: flex-start;
     overflow: visible;
-    padding: 3rem 0;
     justify-content: flex-end;
     gap: 5rem;
   }
@@ -53,10 +49,10 @@
   }
   
   @media screen and (max-width: 800px) {
-    #work {
+    /* #work {
       padding: 3rem 0;
     }
-  
+   */
     #work .projects-container {
       counter-reset: project;
       display: flex;
@@ -70,20 +66,13 @@
       padding: 0;
       width: 100%;
     }
-  
-      #work .col-right p,
-      #work .col-right .dark-btn {
-        display: none;
-      }
-  }
+}
   
   @media screen and (min-width: 801px) and (max-width: 1222px) {
       #work .projects-container {
       gap: 3rem;
     }
   }
-  /* Fonts - DM+Sans: 400, 500, 700; Poppins: 300, 400, 500, 700;*/
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@300;400;500;700&display=swap');
 
 :root {
 	--clr-dark-bg: #08070e;
@@ -144,19 +133,9 @@ img {
 	display: block;
 }
 
-/* Font styles */
 body {
 	letter-spacing: 2px;
 }
-
-/* h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	text-transform: uppercase;
-} */
 
 h1,
 h2,
@@ -228,13 +207,12 @@ a {
 	font-family: inherit;
 }
 
-/* Custom Scroll bar */
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 7px;
 }
 
 ::-webkit-scrollbar-track {
-  background: var(--clr-dark-purple);
+  background: black;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -244,46 +222,5 @@ a {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--clr-lime);
-}
-
-@media screen and (max-width: 800px) {
-	:root {
-		--fs-regular: 0.965rem;
-		--fs-medium: 1.20rem;
-		--fs-large: 1.85rem;
-		--fs-xlarge: 2rem;
-	}
-
-	.lead {
-		font-size: 1.02rem;
-	}
-
-	.width-wrapper {
-		max-width: 92.5%;
-	}
-
-  .flex-control {
-		flex-direction: column;
-	}
-}
-
-@media screen and (min-width: 801px) and (max-width: 1222px) {
-	:root {
-		--fs-xlarge: 4rem;
-	}
-
-	.width-wrapper {
-		max-width: 90%;
-	}
-}
-
-@media screen and (min-width: 1600px) {
-	:root {
-		--fs-xlarge: 4rem;
-	}
-
-	.width-wrapper {
-		max-width: 70%;
-	}
+  background: rgb(34 197 94);
 }

@@ -45,14 +45,14 @@ const ProjectList = () => {
               </figure>
                 <div className="project-description text-white">
                   <h3 className='text-xl font-semibold'>{item.name}</h3>
-                  <p className='text-lg text-white'>{item.description}</p>
+                  <p className='lg:text-lg text-white'>{item.description}</p>
                   <p className="technoligies flex-control">
                     {item.technologies}
                   </p>
                   <div className="project-link-container flex-control text-white">
                     {(item.repo_link.length > 1) &&
                       <a
-                        className="project-link"
+                        className="project-link border px-4 py-2 text-white hover:bg-green-500 duration-200 ease-in-out transition rounded-md"
                         href={item.repo_link}
                         target="_blank"
                       >
@@ -60,7 +60,7 @@ const ProjectList = () => {
                       </a>
                     }
                     <a
-                      className="project-link"
+                      className="project-link border px-4 py-2 text-white hover:bg-green-500 duration-200 ease-in-out transition rounded-md"
                       href={item.url}
                       target="_blank"
                     >

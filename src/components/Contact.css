@@ -1,13 +1,10 @@
 .contactContainer {
     display: flex; 
-    height: 100vh;
-    margin: -50px 30px;
     align-items: center;
   }
   
   .projectContactContainer{
     position: relative;
-    width: 100%;
   }
   
   .contactDiv{
@@ -20,6 +17,5 @@
     margin: 4px;
     font-size: 2.5vw;
     padding-left: 10px;
-    /* text-transform: uppercase; */
     pointer-events: none;
   }

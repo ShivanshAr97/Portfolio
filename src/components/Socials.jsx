@@ -7,7 +7,7 @@ const Socials = ({ customFunction, customClass, text, link }) => {
     <button 
         type="button"
         onClick={ customFunction}
-className={` bg-white bg-transparent hover:text-white transition ease-in-out duration-200 border rounded-full hover:bg-black focus:ring-4 focus:outline-none text-sm px-[0.5rem] py-[0.5rem] mx-1 text-center inline-flex items-center me-2 mb-2 ${customClass}`}
+className={` bg-white bg-transparent hover:text-white transition ease-in-out duration-200 border rounded-full hover:bg-black focus:ring-4 focus:outline-none text-sm px-[0.5rem] py-[0.5rem] lg:mx-1.5 text-center inline-flex items-center me-2 mb-2 ${customClass}`}
 
         aria-label={ text }>
        <a href={ link } target="_blank">{ text }</a>

@@ -57,10 +57,7 @@
     background: none;
     text-transform: uppercase;
   }
-  
-  .project-link:hover {
-    color: var(--clr-light-purple);
-  }
+
   
   @media screen and (max-width: 800px) {
     .project-description {
