@@ -33,7 +33,7 @@ const Home = () => {
       },"<")
       .to(splitTitle.chars,{
         opacity: 0,
-        y:-80,
+        y:-40,
         rotateX:90,
         stagger:0.02
       },"<1")
@@ -44,30 +44,36 @@ const Home = () => {
   }, []);
   return (
     <div className='h-[100vh]' id='home'>
-      <h1 className='text-6xl text-white  w-[100vw] h-[50vh] text-center py-28 font-spartan'>Hey! I'm <span className='text-green-400'>Shivansh Arora</span> </h1>
-      <div className="container -mt-6">
+      <h1 className='lg:text-6xl text-4xl text-white  w-[100vw] h-[50vh] text-center lg:py-28 py-20 font-spartan'>Hey! I'm <span className='text-green-400 mx-8 md:mx-0'>Shivansh Arora</span> </h1>
+      <div className="container lg:-mt-6 -mt-10">
         <div className="text-wrapper">
-          <p className='pTag lg:text-[7rem] text-[3rem]'>Problem Solver</p>
-          <p className='pTag lg:text-[7rem] text-[3rem]'>Team Player</p>
-          <p className='pTag lg:text-[7rem] text-[3rem]'>Collaborative</p>
-          <p className='pTag lg:text-[7rem] text-[3rem]'>Curious</p>
-          <p className='pTag lg:text-[7rem] text-[3rem]'>Adaptable</p>
-          <p className='pTag lg:text-[7rem] text-[3rem]'>Open minded</p>
-          <p className='pTag lg:text-[7rem] text-[3rem]'>Quick Learner</p>
+          <p className='pTag lg:text-[7rem] text-[2.4rem]'>Problem Solver</p>
+          <p className='pTag lg:text-[7rem] text-[2.25rem]'>Team Player</p>
+          <p className='pTag lg:text-[7rem] text-[2.25rem]'>Collaborative</p>
+          <p className='pTag lg:text-[7rem] text-[2.25rem]'>Curious</p>
+          <p className='pTag lg:text-[7rem] text-[2.25rem]'>Adaptable</p>
+          <p className='pTag lg:text-[7rem] text-[2.25rem]'>Open minded</p>
+          <p className='pTag lg:text-[7rem] text-[2.25rem]'>Quick Learner</p>
         </div>
       </div>
-      <div className='text-white text-center mt-28 lg:my-2 justify-center align-middle items-center flex'>
+      <div className='text-white text-center mt-20 lg:mt-28 lg:my-2 justify-center align-middle items-center flex flex-col lg:flex-row'>
         <a href={resume} target='_blank'><Button text="Resume"/></a>
+        <div className='flex lg:mt-0 mt-4 flex-col lg:flex-row'>
+          <div>
         <Socials text={<MdEmail />} customClass="text-black text-xl lg:text-[2rem]" link="mailto: shivansh.arora973@gmail.com"/>
         <Socials text={<FaLinkedinIn/>} customClass=" text-blue-800 text-xl lg:text-[2rem]" link="https://www.linkedin.com/in/shivansharora97"/>
         <Socials text={<FaGithub/>} customClass="text-green-800 text-xl lg:text-[2rem]" link="https://github.com/ShivanshAr97"/>
         <Socials text={<RiTwitterXFill/>} customClass="text-black text-xl lg:text-[2rem]" link="https://twitter.com/ShivanshAr97" />
+        </div>
+        <div>
         <Socials text={<SiLeetcode/>} customClass="text-yellow-600 text-xl lg:text-[2rem]" link="https://leetcode.com/shivanshar"/>
         <Socials text={<SiCodechef />} customClass="text-xl lg:text-[2rem] text-black" link="https://www.codechef.com/users/shivanshar97"/>
 
         <Socials text={<SiCodeforces/>} customClass="text-blue-500 text-xl lg:text-[2rem]" link="https://codeforces.com/profile/shivansh.arora973"/>
 
         <Socials text={<SiGeeksforgeeks />} customClass="text-green-500 text-xl lg:text-[2rem]" link="https://auth.geeksforgeeks.org/user/shivansharora973"/>
+        </div>
+        </div>
         
       </div>
     </div>

@@ -67,7 +67,7 @@ const Contact = () => {
     };
 
     return (
-        <div className="bg-gray-900 text-white px-[3.5rem] py-8 flex-col shadow-lg flex lg:flex-row font-spartan" id='contact'>
+        <div className="bg-gray-900 text-white px-[1rem] lg:px-[3.5rem] py-8 flex-col shadow-lg flex lg:flex-row font-spartan" id='contact'>
         <div className='lg:w-[50%]'>
         <h2 className="lg:text-6xl text-4xl mb-4 font-spartan">Reach Out To Me</h2>
         <form onSubmit={handleSubmit} ref={formRef}>
@@ -126,7 +126,7 @@ const Contact = () => {
             {
               projects.map( (project, index) => {
                 return <a href={project.link} target='_blank'><div className='contactDiv' onMouseEnter={(e) => {manageMouseEnter(e, index)}} onMouseLeave={(e) => {manageMouseLeave(e, index)}} key={index}>
-                  <p className='contactP flex justify-between items-center w-[24rem] lg:w-[30rem]'><span>{project.title}</span><BsArrowUpRightCircle/></p>
+                  <p className='contactP lg:text-2xl flex justify-between items-center w-[16rem] lg:w-[30rem]'><span>{project.title}</span><BsArrowUpRightCircle/></p>
                 </div></a>
               })
             }

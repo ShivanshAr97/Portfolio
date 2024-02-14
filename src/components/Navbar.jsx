@@ -16,7 +16,7 @@ const Navbar = () => {
     <div className="main">
   
       <div className="header">
-        <div onClick={() => {setIsActive(!isActive)}} className="button">
+        <div onClick={() => {setIsActive(!isActive)}} className="button bg-green-400 w-8 h-8 lg:w-12 lg:h-12">
           <div className={`burger ${isActive ? 'burgerActive' : ""}`}></div>
         </div>
       </div>
