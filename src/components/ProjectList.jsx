@@ -64,7 +64,7 @@ const ProjectList = () => {
                       href={item.url}
                       target="_blank"
                     >
-                      View Project
+                      Website
                     </a>
                   </div>
                 </div>

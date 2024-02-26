@@ -99,7 +99,7 @@ const Skills = () => {
       </section>
     ))}
   <section className="">
-    <div className="wrapper flex text-xl lg:text-[8vh] font-medium overflow">
+    <div className="wrapper flex text-xl lg:text-[8vh] mt-2 lg:my-4 font-medium overflow">
       And many more...
     </div>
     </section>

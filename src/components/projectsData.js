@@ -27,7 +27,7 @@ const projectsData = [
         name: "StreamVista",
         img: screely2,
         description:
-            "A dynamic live video/streaming platform with channel creation, video uploads, user profile customization, and community features like live chat, comments, likes, and subscriptions. Explore history, engage in a personalized experience with playlists, tags, and a search system, while anticipating future video recommendations as the content library expands.",
+            "A dynamic live video/streaming platform with channel creation, video uploads, user profile customization, and community features like live chat, comments, likes, and subscriptions. Explore history, engage in a personalized experience with playlists, tags, and a search system.",
         technologies: "ReactJS, TailwindCSS, NodeJS, ExpressJS, Redux, Firebase, WebRTC, Nodemailer",
         repo_link: "https://github.com/ShivanshAr97/Youtube",
         url: "https://github.com/ShivanshAr97/Youtube",
@@ -35,7 +35,7 @@ const projectsData = [
     {
         name: 'FitBuddy',
         img: screely4,
-        description: 'A comprehensive health and wellness platform featuring a blog, eCommerce with a cart system, personalized food and exercise recommendations, diet analysis, meal planning, recipe suggestions, exercise tracking, posture detection, disease prediction, creating an all-encompassing health ecosystem.',
+        description: 'A comprehensive health and wellness platform featuring a blog, eCommerce platform, personalized food and exercise recommendations, diet analysis, meal planning, recipe suggestions, exercise tracking, posture detection, disease prediction, creating an all-encompassing health ecosystem.',
         technologies: 'ReactJS, TailwindCSS, NodeJS, ExpressJS, MongoDB, StripeApi, QuillJS',
         repo_link: 'https://github.com/ShivanshAr97/FitBuddy',
         url: 'https://fit-buddy-olive.vercel.app/'

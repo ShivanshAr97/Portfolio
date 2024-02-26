@@ -1,7 +1,8 @@
 import React from 'react';
+
 const AboutSection = () => {
   return (
-    <section className="bg-[#36454F] py-4 font-spartan" id='about'>
+    <section className="bg-[#2a2a2d] py-4 font-spartan" id='about'>
       <div className=" mx-4 lg:mx-10 flex items-center justify-center text-justify flex-col md:flex-row">
         <div className="lg:w-[60%] text-center lg:text-left mb-4 lg:mb-0 text-white">
           <h2 className="text-6xl m-4 font-spartan">About Me</h2>
