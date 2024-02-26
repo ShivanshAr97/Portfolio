@@ -3,7 +3,6 @@ import emailjs from '@emailjs/browser';
 import gsap from 'gsap';
 import './Contact.css'
 import { BsArrowUpRightCircle } from "react-icons/bs";
-import Button from './Button.jsx'
 
 const projects = [
     {

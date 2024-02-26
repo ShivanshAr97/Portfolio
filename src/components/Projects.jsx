@@ -1,6 +1,5 @@
 import ProjectList from './ProjectList';
 import './Project.css'
-import Button from './Button';
 
 const Projects = () => {
 
