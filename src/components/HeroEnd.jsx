@@ -32,32 +32,32 @@ const HeroEnd = () => {
   return (
     <div className="header__marq">
 		<div className="header__marq-wrapp">
-			<span className="header__marq-txt text-sm lg:text-xl">Looking for internships
+			<span className="header__marq-txt text-sm lg:text-2xl">Looking for internships
 				<span className="header__marq-star -mt-0.5 h-6 w-6 lg:h-8 lg:w-8">
 					<img src={star} alt=""/>
 				</span>
 				</span>
-				<span className="header__marq-txt text-sm lg:text-xl">collaborations
+				<span className="header__marq-txt text-sm lg:text-2xl">collaborations
 				<span className="header__marq-star -mt-0.5 h-6 w-6 lg:h-8 lg:w-8">
 						<img src={star} alt=""/>
 					</span>
 				</span>
-				<span className="header__marq-txt text-sm lg:text-xl">freelance work
+				<span className="header__marq-txt text-sm lg:text-2xl">freelance work
 				<span className="header__marq-star -mt-0.5 h-6 w-6 lg:h-8 lg:w-8">
 						<img src={star} alt=""/>
 					</span>
 				</span>
-				<span className="header__marq-txt text-sm lg:text-xl">Looking for internships
+				<span className="header__marq-txt text-sm lg:text-2xl">Looking for internships
 				<span className="header__marq-star -mt-0.5 h-6 w-6 lg:h-8 lg:w-8">
 					<img src={star} alt=""/>
 				</span>
 				</span>
-				<span className="header__marq-txt text-sm lg:text-xl">collaborations
+				<span className="header__marq-txt text-sm lg:text-2xl">collaborations
 				<span className="header__marq-star -mt-0.5 h-6 w-6 lg:h-8 lg:w-8">
 						<img src={star} alt=""/>
 					</span>
 				</span>
-				<span className="header__marq-txt text-sm lg:text-xl">freelance work
+				<span className="header__marq-txt text-sm lg:text-2xl">freelance work
 				<span className="header__marq-star -mt-0.5 h-6 w-6 lg:h-8 lg:w-8">
 						<img src={star} alt=""/>
 					</span>

@@ -10,7 +10,7 @@ const projectsData = [
         img: screely3,
         description:
             "Crafted a dynamic chat application for seamless single and group conversations, featuring video calls, voice calls, and file transfers. Elevates user engagement with smart AI integration, ensuring advanced capabilities and contextual responses for an enhanced chat experience.",
-        technologies: "ReactJS, NodeJS, ExpressJS, MongoDB, TailwindCSS, WebSockets, JWT, Redux, PWA",
+        technologies: "ReactJS, NodeJS, ExpressJS, MongoDB, TailwindCSS, WebSockets, JWT, Redux, PWA, LangChainJS, Google Gemini",
         repo_link: "https://github.com/ShivanshAr97/ChatApplication",
         url: "https://github.com/ShivanshAr97/ChatApplication",
     },
@@ -28,7 +28,7 @@ const projectsData = [
         img: screely2,
         description:
             "A dynamic live video/streaming platform with channel creation, video uploads, user profile customization, and community features like live chat, comments, likes, and subscriptions. Explore history, engage in a personalized experience with playlists, tags, and a search system, while anticipating future video recommendations as the content library expands.",
-        technologies: "ReactJS, TailwindCSS, NodeJS, ExpressJS, MongoDB, WebRTC, Cloudinary, Nodemailer",
+        technologies: "ReactJS, TailwindCSS, NodeJS, ExpressJS, Redux, Firebase, WebRTC, Nodemailer",
         repo_link: "https://github.com/ShivanshAr97/Youtube",
         url: "https://github.com/ShivanshAr97/Youtube",
     },

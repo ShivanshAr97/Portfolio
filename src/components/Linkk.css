@@ -1,9 +1,7 @@
 .link{
     position: relative;
     display: flex;
-    margin: 10px 30px;
     align-items: center;
-    
     .indicator{
         width: 10px;
         height: 10px;

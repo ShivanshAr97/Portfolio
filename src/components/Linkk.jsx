@@ -16,7 +16,7 @@ const Linkk = ({ data, isActive, setSelectedIndicator }) => {
 
   return (
     <div
-      className={`link item ${isActive ? 'active' : ''}`}
+      className={`link lg:my-2.5 mx-8 my-1 item ${isActive ? 'active' : ''}`}
       onMouseEnter={handleMouseEnter}
     >
       <ScrollLink
@@ -27,7 +27,7 @@ const Linkk = ({ data, isActive, setSelectedIndicator }) => {
         duration={500}
         onClick={handleClick}
       >
-          <p className='title text-3xl font-spartan'>{title}</p>
+          <p className='title lg:text-3xl font-spartan cursor-pointer'>{title}</p>
       </ScrollLink>
     </div>
   );

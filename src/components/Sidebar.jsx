@@ -34,8 +34,8 @@ const Sidebar = () => {
     <div className="menu font-spartan">
       <div className="body font-spartan">
         <div onMouseLeave={() => setSelectedIndicator(pathname)} className="nav">
-          <div className="header">
-            <p>Menu</p>
+          <div className="header mx-10 -mt-10 z-50">
+            <p className='-mx-[13rem] -mt-8 lg:-mx-[12rem] lg:-mt-4'>Menu</p>
           </div>
           {navItems.map((data, index) => (
             <Linkk
