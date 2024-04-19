@@ -3,6 +3,8 @@ import emailjs from '@emailjs/browser';
 import gsap from 'gsap';
 import './Contact.css'
 import { BsArrowUpRightCircle } from "react-icons/bs";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const projects = [
     {
@@ -57,9 +59,26 @@ const Contact = () => {
       })
       .then(
         () => {
+          toast.success("Mail sent successfully",{
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "light"});
           console.log('SUCCESS!');
         },
         (error) => {
+          toast.error("Mail sending failed",{
+            position: "top-right",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "light"});
           console.log('FAILED...', error.text);
         },
       );
@@ -131,6 +150,7 @@ const Contact = () => {
             }
         </div>
     </div>
+    <ToastContainer />
         </div>
     );
 };

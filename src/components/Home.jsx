@@ -55,7 +55,7 @@ const Home = () => {
         </div>
       </div>
       <div className='text-white text-center font-spartan mt-20 lg:mt-28 lg:my-2 justify-center align-middle items-center flex flex-col lg:flex-row mx-4'>
-        <a href="https://drive.google.com/file/d/1uAiKbyYHmxB9Zep68K3V80OdqSuERmf6/view?usp=sharing"><button
+        <a href="https://drive.google.com/file/d/15QNl6m5d3OaxFtof7MFPTM7d6mIrftFb/view?usp=sharing"><button
             type="submit" target="_blank"
             className="bg-green-500 font-spartan text-white px-6 py-2.5 text-[1.4rem] rounded-md transition duration-300 hover:bg-green-600 focus:outline-none flex lg:mx-4"
             >
