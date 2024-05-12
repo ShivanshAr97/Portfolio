@@ -15,19 +15,19 @@ const projectsData = [
         url: "https://github.com/ShivanshAr97/ChatApplication",
     },
     {
-        name: "DoodleDash",
+        name: "TypeRacer",
         img: screely1,
         description:
-            "Developed an interactive online drawing game inspired by skribble.io, allowing users to draw in real-time on a shared board. Players engage in a fun guessing experience as they decipher each other's drawings to identify the hidden word.",
+            "Developed an interactive online typing game where in players complete typing tests of various texts as fast as possible, competing against themselves or with other users online.",
         technologies: " ReactJS, TailwindCSS, NodeJS, ExpressJS, MongoDB, SocketIO, ContextAPI",
         repo_link: "https://github.com/ShivanshAr97/skribble",
         url: "https://github.com/ShivanshAr97/skribble",
     },
     {
-        name: "StreamVista",
+        name: "Live Streaming",
         img: screely2,
         description:
-            "A dynamic live video/streaming platform with channel creation, video uploads, user profile customization, and community features like live chat, comments, likes, and subscriptions. Explore history, engage in a personalized experience with playlists, tags, and a search system.",
+            "A dynamic live video/streaming platform with features like live chat.",
         technologies: "ReactJS, TailwindCSS, NodeJS, ExpressJS, Redux, Firebase, WebRTC, Nodemailer",
         repo_link: "https://github.com/ShivanshAr97/Youtube",
         url: "https://github.com/ShivanshAr97/Youtube",
