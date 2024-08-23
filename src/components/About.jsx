@@ -6,7 +6,7 @@ const AboutSection = () => {
       <div className=" mx-4 lg:mx-10 flex items-center justify-center text-justify flex-col md:flex-row">
         <div className="lg:w-[60%] text-center lg:text-left mb-4 lg:mb-0 text-white">
           <h2 className="text-6xl m-4 font-spartan">About Me</h2>
-          <p className='lg:text-xl mb-6 text-justify mx-4 font-spartan'>I'm a third-year Computer Science undergraduate at Maharaja Surajmal Institute of Technology. Hailing from India, my journey in the tech realm has been fueled by a fervent passion for web development, where I blend innovative concepts with visually appealing interfaces. Meticulous in both user experience and system design, I thrive on flawless code quality.</p>
+          <p className='lg:text-xl mb-6 text-justify mx-4 font-spartan'>I'm a fourth-year Computer Science undergraduate at Maharaja Surajmal Institute of Technology. Hailing from India, my journey in the tech realm has been fueled by a fervent passion for web development, where I blend innovative concepts with visually appealing interfaces. Meticulous in both user experience and system design, I thrive on flawless code quality.</p>
           <p className='lg:text-xl mb-6 text-justify mx-4 font-spartan'>
           My commitment to the tech community is reflected in my active involvement with open-source projects and participation in esteemed open source programs, fostering a collaborative and community-driven mindset.</p>
           <p className='lg:text-xl mb-6 text-justify mx-4 font-spartan'>
