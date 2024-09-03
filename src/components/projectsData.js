@@ -5,6 +5,7 @@ import screely4 from "../projectImages/screely4.png";
 import screely5 from "../projectImages/cart.png";
 import screely6 from "../projectImages/linkfolio.png";
 import screely7 from "../projectImages/hridya.png";
+import screely9 from "../projectImages/screely9.png";
 
 const projectsData = [
   {
@@ -24,7 +25,25 @@ const projectsData = [
       "Developed an interactive online typing game where in players complete typing test of various texts as fast as possible, having different fonts, background, speed limit, competing against themselves.",
     technologies: "NextJS, TypeScript, TailwindCSS",
     repo_link: "https://github.com/ShivanshAr97/KeyBattles",
-    url: "https://github.com/ShivanshAr97/skribble",
+    url: "https://key-battles.vercel.app/",
+  },
+  {
+    name: "Linkfolio",
+    img: screely6,
+    description:
+      "A personalized profile page solution, allowing users to consolidate important links, bypassing social media limitations. Enabled quick setup of personal sites with minimal clicks and added a dashboard for tracking link views, recent activity, and top posts from various platforms.",
+    technologies: "NextJS, TypeScript, TailwindCSS",
+    repo_link: "https://github.com/ShivanshAr97/Linkfolio",
+    url: "https://linkfolio-teal.vercel.app/",
+  },
+  {
+    name: "Draw It",
+    img: screely9,
+    description:
+      "An interactive online whiteboard enabling users to create and manipulate text, shapes, and drawings with customizable colors and background options.",
+    technologies: "NextJS, TailwindCSS",
+    repo_link: "https://github.com/ShivanshAr97/draw-it",
+    url: "https://draw-it-swart.vercel.app/",
   },
   {
     name: "FastLog",
@@ -54,15 +73,7 @@ const projectsData = [
     repo_link: "https://github.com/ShivanshAr97/VersaCart",
     url: "https://github.com/ShivanshAr97/VersaCart",
   },
-  {
-    name: "Linkfolio",
-    img: screely6,
-    description:
-      "A personalized profile page solution, allowing users to consolidate important links, bypassing social media limitations. Enabled quick setup of personal sites with minimal clicks and added a dashboard for tracking link views, recent activity, and top posts from various platforms.",
-    technologies: "NextJS, TypeScript, TailwindCSS",
-    repo_link: "https://github.com/ShivanshAr97/Linkfolio",
-    url: "https://github.com/ShivanshAr97/Linkfolio",
-  },
+  
   {
     name: "HridyaAI",
     img: screely7,
